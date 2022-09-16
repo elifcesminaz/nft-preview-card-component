@@ -1,0 +1,117 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+hr{
+  color:hsl(215, 51%, 70%);
+  margin-top: 1px;
+
+}
+
+.heading{
+  color:hsl(0, 0%, 100%);
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.myText{
+  color:hsl(215, 51%, 70%);
+  font-weight: 300;
+  width: 251px;
+  word-wrap: break-word;
+}
+
+.rightText{
+  color:hsl(178, 100%, 50%);
+}
+
+.leftText, .creation {
+  color:hsl(215, 51%, 70%);
+
+}
+.myImage{
+  width: 100%;
+}
+
+.card {
+  justify-content: center;
+	padding: 1.5rem;
+	border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  margin-top:150px;
+}
+
+.cardimage {
+	position: relative;
+	border-radius: 10px;
+  margin-top: 20px;
+}
+
+.cardimage img {
+	border-radius: 10px;
+}
+
+.imageicon {
+	display: grid;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	place-items: center;
+	cursor: pointer;
+	border-radius: 10px;
+	background-color: hsl(178deg 100% 50% / 40%);
+}
+.cardimage:hover .imageicon {
+	opacity: 1;
+	visibility: visible;
+}
+
+.avatarImage{
+  width: 15%;
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.iconEther, .iconClock{
+  padding-right: 5px;
+}
+
+.creation{
+  padding-bottom:
+}
+
+.avatarName{
+  padding-left: 65px;
+  padding-top: 5px;
+}
+
+span{
+  color:white;
+}
+
+.heading:hover, span:hover{
+  color:hsl(178, 100%, 50%);
+}
+
+@media(max-width:375px){
+  body{
+    background-color: hsl(217, 54%, 11%);
+  }
+  .card{
+    width: 330px;
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    }
+}
